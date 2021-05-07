@@ -155,3 +155,6 @@ AWS_S3_VERIFY = False
 AWS_QUERYSTRING_AUTH = False
 AWS_DEFAULT_ACL = 'public-read'
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
